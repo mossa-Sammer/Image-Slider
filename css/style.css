@@ -10,7 +10,6 @@
 
 body{
   font-family: 'Roboto', sans-serif;
-  /* background:#333; */
   background:#333;
 }
  
@@ -86,11 +85,9 @@ body{
   cursor:pointer;
   padding:6px 10px;
   outline:none;
-  /* opacity:0; */
   display:none;
 }
 .slider button.cs{
-  /* opacity:1; */
   display:block;
 } 
 
@@ -145,27 +142,3 @@ right:1%;
 
 
 
-
-
-
-/*
-
-@media(max-width600px){
-  .container{
-    height:500px;
-  }
-} */
-
-
-/* .slider img{
-  position: absolute;
-  opacity: 0;
-  z-index:0;
-}
-.slider button{position: absolute;}
-.slider button#prev{top:50%;left:10%;}
-
-
-.slider .active{
-  opacity: 1;
-} */
