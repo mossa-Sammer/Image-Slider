@@ -39,7 +39,6 @@ const nextSlide=()=>{
   else{
     slides[0].classList.add('current');
   }
-  // setTimeout(()=>current.classList.remove('current'));  
 }
 
 const prevSlide=()=>{
@@ -51,9 +50,7 @@ const prevSlide=()=>{
   }
   else{
     slides[slides.length-1].classList.add('current');
-  }
-  // setTimeout(()=>current.classList.remove('current'),30);
-     
+  }     
 }
 
 
