@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
-
-
 *{
   box-sizing: border-box;
   margin: 0;
@@ -13,7 +11,6 @@ body{
   background:#333;
 }
  
-
 .container{
   margin:10px auto;
   width:90%;
@@ -23,9 +20,7 @@ body{
   border:1px solid #333;
   user-select: none;
   box-shadow: 0px 0px 3px 1px rgba(77, 228, 228, 0.4);
-  padding:5px;
-  
-  
+  padding:5px; 
 }
 
  .slider{
@@ -36,6 +31,7 @@ body{
   position: relative;
   overflow:hidden;
 }
+
 .slide{
   width:100%;
   height: 100%;
@@ -43,8 +39,13 @@ body{
   opacity:0;
   transition: opacity 0.3s ease-in-out;
 }
-.slide.current{opacity:1;}
-.slide img{width:100%;height: 100%;
+
+.slide.current{
+  opacity:1;
+}
+
+.slide img{
+  width:100%;height: 100%;
 }
 
 .slide p{
@@ -52,15 +53,7 @@ body{
   left:1%;bottom:1%;
   font-size:24px;
   color:#fff;
-   
 }
-
-
-
-
-
-
-
 
 .slider button.arrow{
   position: absolute;
@@ -74,10 +67,11 @@ body{
   outline:none;
   border-radius: 50%; 
  }
+
 .slider button.play-pause{
   position: absolute;
   z-index:1;
-   top:1%;
+  top:1%;
   left:1%;
   border:2px solid #fff;
   background-color:rgb(245, 171, 171);
@@ -87,6 +81,7 @@ body{
   outline:none;
   display:none;
 }
+
 .slider button.cs{
   display:block;
 } 
@@ -96,23 +91,22 @@ body{
   z-index:2;
   top:2%;
   right:2%;
-    font-size:20px;
+  font-size:20px;
   color:#fff;
 }
 
-
-
-
-.slider button.arrow:hover{background:#fff;color:#333;}
-.slider button#prev{
-  left:1%;
- 
+.slider button.arrow:hover{
+  background:#fff;
+  color:#333;
 }
+
+.slider button#prev{
+  left:1%; 
+}
+
 .slider button#next{
 right:1%; 
 }
-
-
 
 @media(max-width:500px){
   .container{
@@ -136,9 +130,3 @@ right:1%;
     height:500px;
   }
 }
-
-
-
-
-
-
